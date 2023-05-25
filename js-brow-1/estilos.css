@@ -1,0 +1,37 @@
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #b300b3;
+  }
+  input[type="text"],
+   textarea {
+    background-color: #b3d9ff;
+    color: #b300b3;
+    border: ridge;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  button[class="btn"] {
+    padding: 8px 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #b3d9ff;
+    color:#b300b3 ;
+    cursor: pointer;
+    float: center;
+  }
+
+  p[id="resultado"] { 
+    color: #e580ff;
+    font: small-caps 90% cursive;
+
+  }
+  p[id="resultadoMayusculas"] { 
+    font: bold 150% cursive;
+    color: #ff3399;
+
+  }
